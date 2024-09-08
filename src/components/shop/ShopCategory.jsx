@@ -1,6 +1,7 @@
 import React from "react";
+import SelectedCategory from "./../category/selectedCategory";
 
-const ShopCategory = () => {
+const ShopCategory = ({ filterItem, setItem, menuItems, setProducts, SelectedCategory }) => {
   return <div>Shop Categories</div>;
 };
 
